@@ -7,6 +7,7 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="shortcut icon" href="images/police_logo.png" type="image/x-icon">
 	<title>Random User API</title>
 </head>
 <body>
@@ -24,14 +25,27 @@
 		<div class="tab-links-container">
 			<h1>Police Dashboard</h1>
 			<div class="tab">
-				<button class="tab-links selected">Show All Records</button>
+				<button class="tab-links selected">About</button>
+				<button class="tab-links">Show All Records</button>
 				<button class="tab-links">Search Records</button>
-				<button class="tab-links">About us</button>
 			</div>
 		</div>
 		
 		 <div class="tab-content-container">
 			 <div class="tab-content" data-content-index="0">
+				 <h1>About the Website</h1>
+				 <h2>This is where the details of our website are</h2>
+				 <h1>What we did with our website?</h1>
+				 <ul>
+					 <li><p>This is a website which simulates a rudimentary police dashboard</p></li>
+					 <li><p>We used the randomusers.me API to generate random people <b>(so, no information given are from real people, other than pictures provided by the API)</b> to fill out a record which can be viewed by clicking the <i>"Show&emsp14;All&emsp14;Records"</i> button.</p></li>
+					 <li><p>We use a set seed to generate these people, meaning you'll see the same group of people each time.</p></li>
+					 <li><p>You are able to see more details by searching the person's full name inside the <i>"Search&emsp14;Records"</i> button (as long as you type it correctly in the following format: ["FirstName Surname", "Surname, First Name", "Surname First Name"]).</p></li>
+					 <li><p><i>This is brought to you by:</i> JC Cordero, Jorella Dayrit, Angelica Farre, and Bea Guiao</p></li>
+				 </ul>
+			 </div>
+			 
+			 <div class="tab-content" data-content-index="1">
 				 <h1>Police Records</h1>
 				 <h2>Current record as of now</h2>
 				 
@@ -40,7 +54,7 @@
 				 </div>
 			 </div>
 			 
-			 <div class="tab-content" data-content-index="1">
+			 <div class="tab-content" data-content-index="2">
 				 <h1><label for="name-search">Search by full name:</label></h1><br>
 				 <div class="search-options">
 					 <input type="text" id="name-search" oninput="this.value = this.value.toUpperCase()">
@@ -49,23 +63,9 @@
 
 				 <div class="search-results">
 					 <div class="result-info">
-						 <h1>Name</h1><h2>BECK, Diana</h2>
-						 <h1>Date of Birth</h1>
-						 <h2>March 13, 1955</h2>
-						 <h1>Address</h1>
-						 <h2>Steilacoom, South Dakota</h2>
-						 <h1>Phone Number</h1><h2>(548) 379-3914}</h2>
-					 </div>
-					 <div class="img-mask">
-						 <img src="https://randomuser.me/api/portraits/women/13.jpg" alt="Mug shot">
+						 <h1>Loading...</h1>
 					 </div>
 				 </div>
-			 </div>
-			 
-			 <div class="tab-content" data-content-index="2">
-				 <h1>Tab Content 3</h1>
-				 <h2>Chu chu chu</h2>
-				 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, impedit?
 			 </div>
 		 </div>
 	</main>

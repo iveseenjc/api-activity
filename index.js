@@ -63,11 +63,13 @@ tabLinks.forEach((tabLink, index) => {
 	});
 });
 
-tabContents.forEach((tabContent, index) => {
-	if (index !== 0) {
-		tabContent.style.display = "none";
-	}
-});
+changeTabs(0);
+
+// tabContents.forEach((tabContent, index) => {
+// 	if (index !== 0) {
+// 		tabContent.style.display = "none";
+// 	}
+// });
 
 // Show Records ----------------------------------------------------
 

@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b9e3bb4-205f-4708-b6a4-a2651407f9ef" name="Changes" comment="Version 1&#10;- UI Designed Elements and Basic Function working.&#10;&#10;Features:&#10;- Tab switching">
-      <change afterPath="$PROJECT_DIR$/fonts/Panton Rust/Panton-Black.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Panton Rust/Panton-Bold.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Panton Rust/Panton-ExtraBold.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Panton Rust/Panton-ExtraLight.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Panton Rust/Panton-Heavy.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Panton Rust/Panton-Light.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Panton Rust/Panton-Regular.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Panton Rust/Panton-SemiBold.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Panton Rust/Panton-Thin.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
@@ -25,6 +17,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -84,7 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1743522399239</updated>
       <workItem from="1743522400377" duration="791000" />
-      <workItem from="1743728643463" duration="49550000" />
+      <workItem from="1743728643463" duration="53801000" />
     </task>
     <task id="LOCAL-00001" summary="Version 1&#10;- UI Designed Elements and Basic Function working.&#10;&#10;Features:&#10;- Tab switching">
       <option name="closed" value="true" />
@@ -110,7 +105,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743781030405</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Version 1&#10;- UI Designed Elements and Basic Function working.&#10;&#10;Features:&#10;- Tab switching">
+      <option name="closed" value="true" />
+      <created>1743931895592</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1743931895592</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
