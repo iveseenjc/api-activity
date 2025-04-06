@@ -24,23 +24,42 @@
 		<div class="tab-links-container">
 			<h1>Police Dashboard</h1>
 			<div class="tab">
-				<button class="tab-links selected">Button 1</button>
-				<button class="tab-links">Button 2</button>
-				<button class="tab-links">Button 3</button>
+				<button class="tab-links selected">Show All Records</button>
+				<button class="tab-links">Search Records</button>
+				<button class="tab-links">About us</button>
 			</div>
 		</div>
 		
 		 <div class="tab-content-container">
 			 <div class="tab-content" data-content-index="0">
-				 <h1>Tab Content 1</h1>
-				 <h2>Chu chu chu</h2>
-				 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, quia?
+				 <h1>Police Records</h1>
+				 <h2>Current record as of now</h2>
+				 
+				 <div class="records-container">
+					<h1>Loading...</h1>
+				 </div>
 			 </div>
 			 
 			 <div class="tab-content" data-content-index="1">
-				 <h1>Tab Content 2</h1>
-				 <h2>Chu chu chu</h2>
-				 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, iure!
+				 <h1><label for="name-search">Search by full name:</label></h1><br>
+				 <div class="search-options">
+					 <input type="text" id="name-search" oninput="this.value = this.value.toUpperCase()">
+					 <button>Search</button>
+				 </div>
+
+				 <div class="search-results">
+					 <div class="result-info">
+						 <h1>Name</h1><h2>BECK, Diana</h2>
+						 <h1>Date of Birth</h1>
+						 <h2>March 13, 1955</h2>
+						 <h1>Address</h1>
+						 <h2>Steilacoom, South Dakota</h2>
+						 <h1>Phone Number</h1><h2>(548) 379-3914}</h2>
+					 </div>
+					 <div class="img-mask">
+						 <img src="https://randomuser.me/api/portraits/women/13.jpg" alt="Mug shot">
+					 </div>
+				 </div>
 			 </div>
 			 
 			 <div class="tab-content" data-content-index="2">
